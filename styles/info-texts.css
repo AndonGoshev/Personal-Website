@@ -2,8 +2,9 @@
 
 
 .info-text {
-    font: 1.2em "Playfair Display", serif;
-    letter-spacing: 5px;
+    font: 1em "Playfair Display", serif;
+    letter-spacing: 7px;
     font-weight: 500;
     font-style: italic;
+    color: #526574;
 }

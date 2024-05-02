@@ -3,6 +3,8 @@
 @import url("welcome-section-layout.css");
 @import url("info-texts.css");
 @import url("head-texts.css");
+@import url("first-button.css");
+
 
 * {
     margin: 0;
