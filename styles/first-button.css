@@ -1,6 +1,6 @@
 #first-button {
     margin-top: 10em;
-    border: 2px solid black;
+    position: relative;
 }
 
 #first-button a

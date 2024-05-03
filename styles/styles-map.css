@@ -1,10 +1,12 @@
+@import url("main-layout.css");
 @import url("body.css");
 @import url("background.css");
 @import url("welcome-section-layout.css");
 @import url("info-texts.css");
 @import url("head-texts.css");
 @import url("first-button.css");
-
+@import url("first-step.css");
+@import url("step-sections-layout.css");
 
 * {
     margin: 0;

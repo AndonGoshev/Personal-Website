@@ -5,4 +5,5 @@ body {
     height: max-content;
     font: 24px "Josefin Sans", sans-serif;
     color: #304674;
+    position: relative;
 }

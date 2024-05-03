@@ -1,0 +1,5 @@
+#first-step{
+    display: flex;
+    flex-direction: row;
+    gap: 4em;
+}

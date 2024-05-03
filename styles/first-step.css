@@ -1,0 +1,16 @@
+#first-step {
+    display: none;
+    scroll-behavior: calc(3s);
+}
+
+#skid-steer {
+    display: flex;
+}
+
+#skid-steer-img {
+    width: 2000px;
+}
+
+#skid-steer-img img{
+    width: 100%;
+}
