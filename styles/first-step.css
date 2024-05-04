@@ -1,16 +1,37 @@
 #first-step {
+    width: 100%;
     display: none;
-    scroll-behavior: calc(3s);
+    flex-direction: column;
+    align-items: center;
+    gap: 10em;
 }
 
-#skid-steer {
+
+#skid-steer , #thinking{
     display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 5em;
 }
 
-#skid-steer-img {
-    width: 2000px;
+#skid-steer-img ,#thinking-img{
+    width: 400px;
+    border-radius: 50px;
+    overflow: hidden;
+    border: 5px solid black;
 }
 
-#skid-steer-img img{
+#skid-steer-img img, #thinking img{
     width: 100%;
 }
+
+#skid-steer p, #thinking p{
+    font-size: 1.3em;
+    max-width: 50%;
+}
+
+#thinking-img {
+    width: 500px;
+}
+

@@ -1,5 +1,9 @@
-#first-step{
+.step-section{
+    width: 80%;
     display: flex;
-    flex-direction: row;
-    gap: 4em;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3em;
+    padding-bottom: 3em;
 }
+

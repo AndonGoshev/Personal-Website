@@ -11,18 +11,17 @@ function firstButton(){
     firstButton.addEventListener("click", () => {
         const firstStepElement = document.getElementById("first-step")
         
-        if (firstStepElement.style.display == "block") {
+        if (firstStepElement.style.display == "flex") {
             firstStepElement.style.display = "none"
-            // mainSectionElement.scrollIntoView({behavior: "smooth", duration: 5000})
+            mainSectionElement.scrollIntoView({behavior: "smooth", duration: 5000})
         } else {
-            firstStepElement.style.display = "block"
-            // firstStepElement.scrollIntoView({behavior: "smooth", duration: 5000})
-            scrollTo(firstStepElement, 5000)
+            firstStepElement.style.display = "flex"
+            firstStepElement.scrollIntoView({behavior: "smooth", duration: 5000})
+            firstStepElement.classList.add("first-step")
         }
 
-        firstStepElement.classList.add("first-step")
-        
-        
+
+
         console.log("okay");
     })
 
