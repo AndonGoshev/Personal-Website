@@ -1,0 +1,13 @@
+.step-button {
+    color: black;
+    padding: 1.5em 5em;
+    background-color: #f4f8fc;
+    border: rgb(156, 156, 156) solid 2px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.step-button:hover {
+    color: rgb(0, 0, 0);
+    border: rgb(98, 115, 147) solid 2px;
+}

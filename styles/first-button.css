@@ -1,4 +1,4 @@
-#first-button {
+#first-button{
     margin-top: 10em;
     position: relative;
 }
@@ -17,17 +17,17 @@
     text-align: center;
     line-height: 50px;
     color: rgb(0, 0, 0);
-    font-size: 20px;
+    font-size: 0.6em;
     font-family: verdana;
     letter-spacing: 4px;
 /*    border-radius: 20px; */
 }
 
 
-a:before,
-a:after,
-span:before,
-span:after
+#first-button a:before,
+#first-button a:after,
+#first-button span:before,
+#first-button span:after
 {
     content: '';
     position: absolute;
@@ -38,8 +38,7 @@ span:after
     mix-blend-mode: hue;
 }
 
-#first-button a:before
-{
+#first-button a:before{
     top: -2px;
     left: -2px
 }
